@@ -1,0 +1,21 @@
+body{
+	padding: 2%;
+
+}
+
+#ingresetexto{
+	width: 100%;
+}
+
+.foto{
+	width: 80%;
+	height: 80%;
+}
+
+.mt-28{
+	margin-top: 28px;
+}
+
+.foto-on{
+	width: 100%;
+}
