@@ -1,14 +1,14 @@
 var lima = [{
-  img : "Carmenrosa Arias.JPG",
+  img : "CarmenrosaArias.JPG",
   name : "Carmenrosa"
 },{
-  img : "Daniela Segura.JPG",
+  img : "DanielaSegura.JPG",
   name : "Daniela"
 },{
   img : "Diana Julcarima.JPG",
   name : "Diana"
 },{
-  img : "Diana Santisteban",
+  img : "Diana Santisteban.JPG",
   name : "Diana"
 },{
   img : "Emily Elena Vivanco.JPG",
@@ -20,7 +20,7 @@ var lima = [{
   img : "Jesenia Rodriguez.JPG",
   name : "Jesenia"
 },{
-  img : "Johana Azañero.JPG",
+  img : "JohanaAzanero.JPG",
   name : "Johana"
 },{
   img : "Johelyn Cordova.JPG",
@@ -38,7 +38,7 @@ var lima = [{
   img : "Lezmit Galarza.JPG",
   name : "Lezmit"
 },{
-  img : "Lisbeth Balabarca",
+  img : "Lisbeth Balabarca.JPG",
   name : "Lisbeth"
 },{
   img : "Lizeth Lopez.JPG",
@@ -68,6 +68,6 @@ var lima = [{
   img : "Vickensi de la Cruz.JPG",
   name : "Vickensi"
 },{
-  img : "Winy Concha",
+  img : "Winy Concha.JPG",
   name : "Winy"
 }];

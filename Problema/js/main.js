@@ -18,6 +18,7 @@ do{
 }
 
 function fotos(maximo,npais,num){
+  console.log(npais);
   var foto=('fotos/'+npais+'/'+maximo[num].img);
   $("#fotopes").html("<img class='foto-on' src='"+foto+"'/>"); 
 }
@@ -26,20 +27,20 @@ var a=0;
 var i=0;
 
 function random(aleatorio) {
-$('#ingresetexto').val() == pais1[num1].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num1=generarAleatorio(pais1), fotos(arequipa,"arequipa",num1)) : $('#ingresetexto').val() == pais2[num2].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num2=generarAleatorio(pais2), fotos(lima,"lima",num2)) : $('#ingresetexto').val() ==pais3[num3].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num3=generarAleatorio(pais3), fotos(mexico,"mexico",num3)) : ($('.validacion').html('<p id="validamos">Sigue intentando. Aun puedes</p>'), a-=1, $("#texto").html(a+" puntos"), i++, 5== i && (num1=aleatorio(pais1), fotos(arequipa,"arequipa",num1)));
+$('#ingresetexto').val() == pais1[num1].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num1=generarAleatorio(pais1), fotos(arequipa,"Arequipa",num1)) : $('#ingresetexto').val() == pais2[num2].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num2=generarAleatorio(pais2), fotos(lima,"lima",num2)) : $('#ingresetexto').val() ==pais3[num3].name ? ($('.validacion').html('<p id="validamos">Acertaste</p>'), a+=5, $("#texto").html(a+" puntos"), num3=generarAleatorio(pais3), fotos(mexico,"Mexico",num3)) : ($('.validacion').html('<p id="validamos">Sigue intentando. Aun puedes</p>'), a-=1, $("#texto").html(a+" puntos"), i++, 5== i && (num1=aleatorio(pais1), fotos(arequipa,"Arequipa",num1)));
     clean();
   }
 
 $("#abajito").on('change', function() {
   var valor=$('#abajito').val();
   if (valor==1){
-    fotos(arequipa,"arequipa", num1);
+    fotos(arequipa,"Arequipa", num1);
   }
   else if (valor==2) {
     fotos(lima,"lima", num2);
   }
   else if (valor==3) {
-    fotos(mexico,"mexico", num3);
+    fotos(mexico,"Mexico", num3);
   }
 });
 
